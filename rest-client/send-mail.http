@@ -1,4 +1,4 @@
-### Prueba de correo exitoso
+### Prueba de correo exitoso, con todos los datos completos
 POST    http://localhost/api-carol/v1/endpoint-webservice/
 Content-Type: "application/json"
 
@@ -14,7 +14,7 @@ Content-Type: "application/json"
 
 {
     "name": "Invitado",
-    "email": "invitado@example.com",
+    "email": "invitadogmail.com",
     "message": "Segunda prueba" 
 }
 
@@ -23,7 +23,7 @@ POST    http://localhost/api-carol/v1/endpoint-webservice/
 Content-Type: "application/json"
 
 {
-    "name": "Invitado",
-    "email": "invitado@example.com",
-    "message": "Segunda prueba" 
+    "name": "",
+    "email": "",
+    "message": "" 
 }
