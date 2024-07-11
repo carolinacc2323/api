@@ -1,0 +1,29 @@
+### Prueba de correo exitoso
+POST    http://localhost/api-carol/v1/endpoint-webservice/
+Content-Type: "application/json"
+
+{
+    "name": "Invitado",
+    "email": "invitado@gmail.com",
+    "message": "Primera prueba" 
+}
+
+### Prueba de correo con email erróneo
+POST    http://localhost/api-carol/v1/endpoint-webservice/
+Content-Type: "application/json"
+
+{
+    "name": "Invitado",
+    "email": "invitado@example.com",
+    "message": "Segunda prueba" 
+}
+
+### Prueba de correo con todos los datos faltantes
+POST    http://localhost/api-carol/v1/endpoint-webservice/
+Content-Type: "application/json"
+
+{
+    "name": "Invitado",
+    "email": "invitado@example.com",
+    "message": "Segunda prueba" 
+}
