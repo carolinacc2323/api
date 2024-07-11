@@ -39,13 +39,25 @@ Content-Type: "application/json"
 {
     "name": "Invitado",
     "email": "invitado@gmail.com",
+    "message": "Prueba" 
+}
+```
+
+```php
+Prueba de correo un dato faltante
+
+POST    http://TU_DOMINIO/
+Content-Type: "application/json"
+
+{
+    "name": "Invitado",
+    "email": "",
     "message": "Primera prueba" 
 }
 ```
 
 ```php
-Prueba de correo con email erróneo
-
+Prueba de correo con email erróneo 
 POST    http://TU_DOMINIO/
 Content-Type: "application/json"
 

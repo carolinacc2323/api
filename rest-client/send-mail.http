@@ -5,6 +5,16 @@ Content-Type: "application/json"
 {
     "name": "Invitado",
     "email": "invitado@gmail.com",
+    "message": "Prueba" 
+}
+
+### Prueba de correo un dato faltante
+POST    http://localhost/api-carol/v1/endpoint-webservice/
+Content-Type: "application/json"
+
+{
+    "name": "Invitado",
+    "email": "",
     "message": "Primera prueba" 
 }
 
@@ -18,7 +28,7 @@ Content-Type: "application/json"
     "message": "Segunda prueba" 
 }
 
-### Prueba de correo con todos los datos faltantes
+### Prueba de correo con todos los datos faltantes(Tercera prueba)
 POST    http://localhost/api-carol/v1/endpoint-webservice/
 Content-Type: "application/json"
 
