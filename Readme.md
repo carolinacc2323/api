@@ -1,4 +1,4 @@
-# API WEB SERVICE
+# CONTACTO FORMULARIO
 Una API  escrita en PHP que permite enviar correos a un administrador
 ## Descripción
 Este script PHP del lado del servidor permite procesar un formulario de contacto y enviar los datos a un correo electrónico especificado. Se puede utilizar para implementar un formulario de contacto en un sitio web o aplicación web.
